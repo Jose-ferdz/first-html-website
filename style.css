@@ -1,0 +1,99 @@
+.calculating {
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    margin: 10%;
+    text-align: center;
+    border: solid 3px black;
+    justify-self: center;
+    background-color: lightpink;
+    font-family: cursive;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.operation form input {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    background-color: lightyellow;
+}
+
+.textpad input {
+    width: 40%;
+    border: none;
+    background-color: lightpink;
+    justify-content: center;
+    height: 30px;
+    border-radius: 20%;
+    text-align: end;
+}
+
+.textpad {
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.textpad {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+#equal {
+    width: 32.5%;
+}
+
+#ac,
+#de,
+#dot,
+#divide,
+#nine,
+#eight,
+#seven,
+#multi,
+#six,
+#five,
+#four,
+#minus,
+#three,
+#two,
+#one,
+#plus,
+#doublezero,
+#zero,
+#equal,
+{
+color: black;
+border-width: 3%;
+border-radius: 30%;
+display: inline-flexbox;
+cursor: pointer;
+transition: transform 0.2s, box-shadow 0.2s;
+border-color: lightpink;
+}
+
+#ac:hover,
+#de:hover,
+#dot:hover,
+#divide:hover,
+#nine:hover,
+#eight:hover,
+#seven:hover,
+#multi:hover,
+#six:hover,
+#five:hover,
+#four:hover,
+#minus:hover,
+#three:hover,
+#two:hover,
+#one:hover,
+#plus:hover,
+#doublezero:hover,
+#zero:hover,
+#equal:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
